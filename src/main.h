@@ -25,9 +25,9 @@ class CNode;
 
 struct CBlockIndexWorkComparator;
 
-#define NDIFF_START_DIGISHIELD 50
+#define NDIFF_START_KGW 50
 
-#define NDIFF_START_DIGISHIELD_TESTNET 10
+#define NDIFF_START_KGW_TESTNET 50
 
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
