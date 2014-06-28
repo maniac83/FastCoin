@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0x00000054c1c6d6971b9c9120a5e639ec7f008fb1fdbad2504c52e865140b45b9");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // GraniteCoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // CoconutCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -66,7 +66,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "GraniteCoin Signed Message:\n";
+const string strMessageMagic = "CoconutCoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -362,7 +362,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // GraniteCoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // CoconutCoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -619,7 +619,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // GraniteCoin
+    // CoconutCoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1227,7 +1227,7 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
         return pindexLast->nBits;
     }
 
-    // GraniteCoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // CoconutCoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -1323,7 +1323,7 @@ unsigned int GetNextWorkRequired_V3(const CBlockIndex* pindexLast, const CBlockH
     CBigNum bnNew;
     bnNew.SetCompact(pindexLast->nBits);
 
-    // thanks to RealSolid & WDC for the basis of this code, modified by Mammix2 for Granitecoin
+    // thanks to RealSolid & WDC for the basis of this code, modified by Mammix2 for Coconutcoin
             if (nActualTimespan < (retargetTimespan - (retargetTimespan/4)) ) nActualTimespan = (retargetTimespan - (retargetTimespan/4));
             if (nActualTimespan > (retargetTimespan + (retargetTimespan/2)) ) nActualTimespan = (retargetTimespan + (retargetTimespan/2));
     // Retarget
@@ -2433,7 +2433,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // GraniteCoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // CoconutCoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -3312,7 +3312,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfe, 0xc3, 0xb9, 0xde }; // GraniteCoin: increase each by adding 6 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xfe, 0xc3, 0xb9, 0xde }; // CoconutCoin: increase each by adding 6 to bitcoin's value.
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4362,7 +4362,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// GraniteCoinMiner
+// CoconutCoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4775,7 +4775,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("GraniteCoinMiner:\n");
+    printf("CoconutCoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4784,7 +4784,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("GraniteCoinMiner : generated block is stale");
+            return error("CoconutCoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4798,7 +4798,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("GraniteCoinMiner : ProcessBlock, block not accepted");
+            return error("CoconutCoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;

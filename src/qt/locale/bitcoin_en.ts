@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GraniteCoin</source>
-        <translation>About GraniteCoin</translation>
+        <source>About CoconutCoin</source>
+        <translation>About CoconutCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GraniteCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GraniteCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;CoconutCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CoconutCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The GraniteCoin developers</source>
-        <translation>The GraniteCoin developers</translation>
+        <source>The CoconutCoin developers</source>
+        <translation>The CoconutCoin developers</translation>
     </message>
 </context>
 <context>
@@ -69,8 +69,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your GraniteCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your GraniteCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your CoconutCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your CoconutCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,8 +84,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GraniteCoin address</source>
-        <translation>Sign a message to prove you own a GraniteCoin address</translation>
+        <source>Sign a message to prove you own a CoconutCoin address</source>
+        <translation>Sign a message to prove you own a CoconutCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -109,8 +109,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified GraniteCoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified GraniteCoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified CoconutCoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified CoconutCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,8 +124,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your GraniteCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your GraniteCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your CoconutCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your CoconutCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -250,8 +250,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GraniteCoinS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GraniteCoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CoconutCoinS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CoconutCoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>GraniteCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GraniteCoins from being stolen by malware infecting your computer.</source>
-        <translation>GraniteCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GraniteCoins from being stolen by malware infecting your computer.</translation>
+        <source>CoconutCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CoconutCoins from being stolen by malware infecting your computer.</source>
+        <translation>CoconutCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CoconutCoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about GraniteCoin</source>
-        <translation>Show information about GraniteCoin</translation>
+        <source>Show information about CoconutCoin</source>
+        <translation>Show information about CoconutCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a GraniteCoin address</source>
-        <translation>Send coins to a GraniteCoin address</translation>
+        <source>Send coins to a CoconutCoin address</source>
+        <translation>Send coins to a CoconutCoin address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for GraniteCoin</source>
-        <translation>Modify configuration options for GraniteCoin</translation>
+        <source>Modify configuration options for CoconutCoin</source>
+        <translation>Modify configuration options for CoconutCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -457,8 +457,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>GraniteCoin</source>
-        <translation>GraniteCoin</translation>
+        <source>CoconutCoin</source>
+        <translation>CoconutCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About GraniteCoin</source>
-        <translation>&amp;About GraniteCoin</translation>
+        <source>&amp;About CoconutCoin</source>
+        <translation>&amp;About CoconutCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your GraniteCoin addresses to prove you own them</source>
-        <translation>Sign messages with your GraniteCoin addresses to prove you own them</translation>
+        <source>Sign messages with your CoconutCoin addresses to prove you own them</source>
+        <translation>Sign messages with your CoconutCoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified GraniteCoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified GraniteCoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified CoconutCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified CoconutCoin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -538,15 +538,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>GraniteCoin client</source>
-        <translation>GraniteCoin client</translation>
+        <source>CoconutCoin client</source>
+        <translation>CoconutCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to GraniteCoin network</source>
+        <source>%n active connection(s) to CoconutCoin network</source>
         <translation>
-            <numerusform>%n active connection to GraniteCoin network</numerusform>
-            <numerusform>%n active connections to GraniteCoin network</numerusform>
+            <numerusform>%n active connection to CoconutCoin network</numerusform>
+            <numerusform>%n active connections to CoconutCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -670,8 +670,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid GraniteCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid GraniteCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CoconutCoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid CoconutCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -685,8 +685,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. GraniteCoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. GraniteCoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. CoconutCoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. CoconutCoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -751,8 +751,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GraniteCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid GraniteCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CoconutCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid CoconutCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -770,8 +770,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>GraniteCoin-Qt</source>
-        <translation>GraniteCoin-Qt</translation>
+        <source>CoconutCoin-Qt</source>
+        <translation>CoconutCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -833,13 +833,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GraniteCoin after logging in to the system.</source>
-        <translation>Automatically start GraniteCoin after logging in to the system.</translation>
+        <source>Automatically start CoconutCoin after logging in to the system.</source>
+        <translation>Automatically start CoconutCoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GraniteCoin on system login</source>
-        <translation>&amp;Start GraniteCoin on system login</translation>
+        <source>&amp;Start CoconutCoin on system login</source>
+        <translation>&amp;Start CoconutCoin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -858,8 +858,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GraniteCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the GraniteCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the CoconutCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the CoconutCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -868,8 +868,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GraniteCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the GraniteCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the CoconutCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the CoconutCoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -943,8 +943,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GraniteCoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting GraniteCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CoconutCoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting CoconutCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -958,8 +958,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GraniteCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show GraniteCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show CoconutCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show CoconutCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1010,8 +1010,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GraniteCoin.</source>
-        <translation>This setting will take effect after restarting GraniteCoin.</translation>
+        <source>This setting will take effect after restarting CoconutCoin.</source>
+        <translation>This setting will take effect after restarting CoconutCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1029,8 +1029,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GraniteCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the GraniteCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoconutCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the CoconutCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1083,8 +1083,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start GraniteCoin: click-to-pay handler</source>
-        <translation>Cannot start GraniteCoin: click-to-pay handler</translation>
+        <source>Cannot start CoconutCoin: click-to-pay handler</source>
+        <translation>Cannot start CoconutCoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1233,8 +1233,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GraniteCoin-Qt help message to get a list with possible GraniteCoin command-line options.</source>
-        <translation>Show the GraniteCoin-Qt help message to get a list with possible GraniteCoin command-line options.</translation>
+        <source>Show the CoconutCoin-Qt help message to get a list with possible CoconutCoin command-line options.</source>
+        <translation>Show the CoconutCoin-Qt help message to get a list with possible CoconutCoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,13 +1253,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>GraniteCoin - Debug window</source>
-        <translation>GraniteCoin - Debug window</translation>
+        <source>CoconutCoin - Debug window</source>
+        <translation>CoconutCoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GraniteCoin Core</source>
-        <translation>GraniteCoin Core</translation>
+        <source>CoconutCoin Core</source>
+        <translation>CoconutCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1268,8 +1268,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GraniteCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the GraniteCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the CoconutCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the CoconutCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1278,8 +1278,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the GraniteCoin RPC console.</source>
-        <translation>Welcome to the GraniteCoin RPC console.</translation>
+        <source>Welcome to the CoconutCoin RPC console.</source>
+        <translation>Welcome to the CoconutCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1462,8 +1462,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
 </context>
 <context>
@@ -1527,8 +1527,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GraniteCoin address</source>
-        <translation>Sign the message to prove you own this GraniteCoin address</translation>
+        <source>Sign the message to prove you own this CoconutCoin address</source>
+        <translation>Sign the message to prove you own this CoconutCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,8 +1563,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GraniteCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified GraniteCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified CoconutCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified CoconutCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1579,8 +1579,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1589,8 +1589,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GraniteCoin signature</source>
-        <translation>Enter GraniteCoin signature</translation>
+        <source>Enter CoconutCoin signature</source>
+        <translation>Enter CoconutCoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1663,8 +1663,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The GraniteCoin developers</source>
-        <translation>The GraniteCoin developers</translation>
+        <source>The CoconutCoin developers</source>
+        <translation>The CoconutCoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2216,8 +2216,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>GraniteCoin version</source>
-        <translation>GraniteCoin version</translation>
+        <source>CoconutCoin version</source>
+        <translation>CoconutCoin version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2226,8 +2226,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or GraniteCoind</source>
-        <translation>Send command to -server or GraniteCoind</translation>
+        <source>Send command to -server or CoconutCoind</source>
+        <translation>Send command to -server or CoconutCoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2246,13 +2246,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: GraniteCoin.conf)</source>
-        <translation>Specify configuration file (default: GraniteCoin.conf)</translation>
+        <source>Specify configuration file (default: CoconutCoin.conf)</source>
+        <translation>Specify configuration file (default: CoconutCoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: GraniteCoind.pid)</source>
-        <translation>Specify pid file (default: GraniteCoind.pid)</translation>
+        <source>Specify pid file (default: CoconutCoind.pid)</source>
+        <translation>Specify pid file (default: CoconutCoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2329,24 +2329,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GraniteCoinrpc
+rpcuser=CoconutCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CoconutCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GraniteCoinrpc
+rpcuser=CoconutCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CoconutCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2361,8 +2361,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. GraniteCoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. GraniteCoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. CoconutCoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. CoconutCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2406,8 +2406,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GraniteCoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GraniteCoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoconutCoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoconutCoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2656,8 +2656,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the GraniteCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the GraniteCoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the CoconutCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the CoconutCoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2846,13 +2846,13 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GraniteCoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of GraniteCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CoconutCoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of CoconutCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart GraniteCoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart GraniteCoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart CoconutCoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart CoconutCoin to complete</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2911,8 +2911,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. GraniteCoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. GraniteCoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. CoconutCoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. CoconutCoin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>

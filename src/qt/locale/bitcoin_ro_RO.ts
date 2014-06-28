@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GraniteCoin</source>
-        <translation>Despre GraniteCoin</translation>
+        <source>About CoconutCoin</source>
+        <translation>Despre CoconutCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GraniteCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GraniteCoin&lt;/b&gt; versiunea</translation>
+        <source>&lt;b&gt;CoconutCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CoconutCoin&lt;/b&gt; versiunea</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The GraniteCoin developers</source>
+        <source>The CoconutCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your GraniteCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră GraniteCoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <source>These are your CoconutCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele dumneavoastră CoconutCoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GraniteCoin address</source>
+        <source>Sign a message to prove you own a CoconutCoin address</source>
         <translation>Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
     </message>
     <message>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified GraniteCoin address</source>
-        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa GraniteCoin specifica</translation>
+        <source>Verify a message to ensure it was signed with a specified CoconutCoin address</source>
+        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa CoconutCoin specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your GraniteCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CoconutCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GraniteCoinS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE GraniteCoin ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CoconutCoinS&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE CoconutCoin ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>GraniteCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GraniteCoins from being stolen by malware infecting your computer.</source>
-        <translation>GraniteCoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate GraniteCoins dvs. de a fi furate de intentii rele.</translation>
+        <source>CoconutCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CoconutCoins from being stolen by malware infecting your computer.</source>
+        <translation>CoconutCoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate CoconutCoins dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about GraniteCoin</source>
-        <translation>Informaţii despre GraniteCoin</translation>
+        <source>Show information about CoconutCoin</source>
+        <translation>Informaţii despre CoconutCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a GraniteCoin address</source>
-        <translation>&amp;Trimiteţi GraniteCoin către o anumită adresă</translation>
+        <source>Send coins to a CoconutCoin address</source>
+        <translation>&amp;Trimiteţi CoconutCoin către o anumită adresă</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for GraniteCoin</source>
-        <translation>Modifică setările pentru GraniteCoin</translation>
+        <source>Modify configuration options for CoconutCoin</source>
+        <translation>Modifică setările pentru CoconutCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>GraniteCoin</source>
-        <translation>GraniteCoin</translation>
+        <source>CoconutCoin</source>
+        <translation>CoconutCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About GraniteCoin</source>
-        <translation>&amp;Despre GraniteCoin</translation>
+        <source>&amp;About CoconutCoin</source>
+        <translation>&amp;Despre CoconutCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your GraniteCoin addresses to prove you own them</source>
+        <source>Sign messages with your CoconutCoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified GraniteCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified CoconutCoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>GraniteCoin client</source>
-        <translation>Client GraniteCoin</translation>
+        <source>CoconutCoin client</source>
+        <translation>Client CoconutCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to GraniteCoin network</source>
-        <translation><numerusform>%n active connections to GraniteCoin network</numerusform><numerusform>%n active connections to GraniteCoin network</numerusform><numerusform>%n active connections to GraniteCoin network</numerusform></translation>
+        <source>%n active connection(s) to CoconutCoin network</source>
+        <translation><numerusform>%n active connections to CoconutCoin network</numerusform><numerusform>%n active connections to CoconutCoin network</numerusform><numerusform>%n active connections to CoconutCoin network</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid GraniteCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CoconutCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -662,7 +662,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. GraniteCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CoconutCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GraniteCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă GraniteCoin valabilă.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CoconutCoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă CoconutCoin valabilă.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>GraniteCoin-Qt</source>
-        <translation>GraniteCoin-Qt</translation>
+        <source>CoconutCoin-Qt</source>
+        <translation>CoconutCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GraniteCoin after logging in to the system.</source>
-        <translation>Porneşte automat programul GraniteCoin la pornirea computerului.</translation>
+        <source>Automatically start CoconutCoin after logging in to the system.</source>
+        <translation>Porneşte automat programul CoconutCoin la pornirea computerului.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GraniteCoin on system login</source>
-        <translation>&amp;S Porneşte GraniteCoin la pornirea sistemului</translation>
+        <source>&amp;Start CoconutCoin on system login</source>
+        <translation>&amp;S Porneşte CoconutCoin la pornirea sistemului</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GraniteCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului GraniteCoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the CoconutCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului CoconutCoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GraniteCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua GraniteCoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <source>Connect to the CoconutCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectare la reţeaua CoconutCoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GraniteCoin.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea GraniteCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CoconutCoin.</source>
+        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea CoconutCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -931,12 +931,12 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de GraniteCoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de CoconutCoin.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GraniteCoin addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele GraniteCoin sunt în lista de tranzacție sau nu</translation>
+        <source>Whether to show CoconutCoin addresses in the transaction list or not.</source>
+        <translation>Vezi dacă adresele CoconutCoin sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,13 +987,13 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GraniteCoin.</source>
+        <source>This setting will take effect after restarting CoconutCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa GraniteCoin pe care a-ti specificat-o este invalida</translation>
+        <translation>Adresa CoconutCoin pe care a-ti specificat-o este invalida</translation>
     </message>
 </context>
 <context>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GraniteCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua GraniteCoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoconutCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua CoconutCoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,7 +1060,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start GraniteCoin: click-to-pay handler</source>
+        <source>Cannot start CoconutCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GraniteCoin-Qt help message to get a list with possible GraniteCoin command-line options.</source>
-        <translation>Arata mesajul de ajutor GraniteCoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor GraniteCoin</translation>
+        <source>Show the CoconutCoin-Qt help message to get a list with possible CoconutCoin command-line options.</source>
+        <translation>Arata mesajul de ajutor CoconutCoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor CoconutCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>GraniteCoin - Debug window</source>
-        <translation>GraniteCoin-Fereastra pentru debug</translation>
+        <source>CoconutCoin - Debug window</source>
+        <translation>CoconutCoin-Fereastra pentru debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GraniteCoin Core</source>
-        <translation>GraniteCoin Core</translation>
+        <source>CoconutCoin Core</source>
+        <translation>CoconutCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GraniteCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CoconutCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
     </message>
     <message>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the GraniteCoin RPC console.</source>
-        <translation>Bun venit la consola GraniteCoin RPC</translation>
+        <source>Welcome to the CoconutCoin RPC console.</source>
+        <translation>Bun venit la consola CoconutCoin RPC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1281,7 +1281,7 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Trimite GraniteCoin</translation>
+        <translation>Trimite CoconutCoin</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1331,7 +1331,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de GraniteCoin</translation>
+        <translation>Confirmaţi trimiterea de CoconutCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1376,7 +1376,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de GraniteCoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de CoconutCoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Introduceţi o adresă GraniteCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Introduceţi o adresă CoconutCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
 </context>
 <context>
@@ -1463,7 +1463,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Introduceţi o adresă GraniteCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <translation>Introduceţi o adresă CoconutCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GraniteCoin address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa GraniteCoin</translation>
+        <source>Sign the message to prove you own this CoconutCoin address</source>
+        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa CoconutCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1536,12 +1536,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Introduceţi o adresă GraniteCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <translation>Introduceţi o adresă CoconutCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GraniteCoin address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa GraniteCoin specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified CoconutCoin address</source>
+        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa CoconutCoin specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Introduceţi o adresă GraniteCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Introduceţi o adresă CoconutCoin (de exemplu: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GraniteCoin signature</source>
+        <source>Enter CoconutCoin signature</source>
         <translation>Introduce semnatura bitocin</translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The GraniteCoin developers</source>
+        <source>The CoconutCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1775,7 +1775,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele GraniteCoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele CoconutCoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2128,7 +2128,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Trimite GraniteCoin</translation>
+        <translation>Trimite CoconutCoin</translation>
     </message>
 </context>
 <context>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>GraniteCoin version</source>
-        <translation>versiunea GraniteCoin</translation>
+        <source>CoconutCoin version</source>
+        <translation>versiunea CoconutCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or GraniteCoind</source>
-        <translation>Trimite comanda la -server sau GraniteCoind</translation>
+        <source>Send command to -server or CoconutCoind</source>
+        <translation>Trimite comanda la -server sau CoconutCoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,12 +2208,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: GraniteCoin.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: GraniteCoin.conf)</translation>
+        <source>Specify configuration file (default: CoconutCoin.conf)</source>
+        <translation>Specifica-ți configurația fisierului (in mod normal: CoconutCoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: GraniteCoind.pid)</source>
+        <source>Specify pid file (default: CoconutCoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2292,13 +2292,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GraniteCoinrpc
+rpcuser=CoconutCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CoconutCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2314,7 +2314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. GraniteCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CoconutCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2359,7 +2359,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GraniteCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoconutCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2609,8 +2609,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the GraniteCoin Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi GraniteCoin wiki pentru intructiunile de instalare)</translation>
+        <source>SSL options: (see the CoconutCoin Wiki for SSL setup instructions)</source>
+        <translation>Optiuni SSl (vezi CoconutCoin wiki pentru intructiunile de instalare)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,13 +2801,13 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GraniteCoin</source>
-        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune GraniteCoin mai noua</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CoconutCoin</source>
+        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune CoconutCoin mai noua</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart GraniteCoin to complete</source>
-        <translation>Portofelul trebuie rescris: restarteaza aplicatia GraniteCoin pentru a face asta.</translation>
+        <source>Wallet needed to be rewritten: restart CoconutCoin to complete</source>
+        <translation>Portofelul trebuie rescris: restarteaza aplicatia CoconutCoin pentru a face asta.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2868,8 +2868,8 @@ details suggestions history
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. GraniteCoin is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. GraniteCoin este, probabil, deja în execuție.</translation>
+        <source>Unable to bind to %s on this computer. CoconutCoin is probably already running.</source>
+        <translation>Imposibilitatea de a lega la% s pe acest computer. CoconutCoin este, probabil, deja în execuție.</translation>
     </message>
     <message>
         <location line="+64"/>

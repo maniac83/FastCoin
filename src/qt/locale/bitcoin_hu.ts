@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GraniteCoin</source>
-        <translation>A GraniteCoinról</translation>
+        <source>About CoconutCoin</source>
+        <translation>A CoconutCoinról</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GraniteCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GraniteCoin&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;CoconutCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CoconutCoin&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+0"/>
-        <source>The GraniteCoin developers</source>
+        <source>The CoconutCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your GraniteCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a GraniteCoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <source>These are your CoconutCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ezekkel a CoconutCoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,7 +81,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GraniteCoin address</source>
+        <source>Sign a message to prove you own a CoconutCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -106,8 +106,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified GraniteCoin address</source>
-        <translation>Üzenet ellenőrzése, hogy valóban a megjelölt GraniteCoin címekkel van-e aláírva.</translation>
+        <source>Verify a message to ensure it was signed with a specified CoconutCoin address</source>
+        <translation>Üzenet ellenőrzése, hogy valóban a megjelölt CoconutCoin címekkel van-e aláírva.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your GraniteCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CoconutCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -247,8 +247,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GraniteCoinS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES GraniteCoinODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CoconutCoinS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES CoconutCoinODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -274,8 +274,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-56"/>
-        <source>GraniteCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your GraniteCoins from being stolen by malware infecting your computer.</source>
-        <translation>GraniteCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <source>CoconutCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CoconutCoins from being stolen by malware infecting your computer.</source>
+        <translation>CoconutCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about GraniteCoin</source>
-        <translation>Információk a GraniteCoinról</translation>
+        <source>Show information about CoconutCoin</source>
+        <translation>Információk a CoconutCoinról</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a GraniteCoin address</source>
+        <source>Send coins to a CoconutCoin address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for GraniteCoin</source>
-        <translation>GraniteCoin konfigurációs opciók</translation>
+        <source>Modify configuration options for CoconutCoin</source>
+        <translation>CoconutCoin konfigurációs opciók</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>GraniteCoin</source>
-        <translation>GraniteCoin</translation>
+        <source>CoconutCoin</source>
+        <translation>CoconutCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About GraniteCoin</source>
-        <translation>&amp;A GraniteCoinról</translation>
+        <source>&amp;About CoconutCoin</source>
+        <translation>&amp;A CoconutCoinról</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your GraniteCoin addresses to prove you own them</source>
-        <translation>Üzenet aláírása a GraniteCoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
+        <source>Sign messages with your CoconutCoin addresses to prove you own them</source>
+        <translation>Üzenet aláírása a CoconutCoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified GraniteCoin addresses</source>
-        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt GraniteCoin címekkel vannak-e alaírva</translation>
+        <source>Verify messages to ensure they were signed with specified CoconutCoin addresses</source>
+        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt CoconutCoin címekkel vannak-e alaírva</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -535,13 +535,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+47"/>
-        <source>GraniteCoin client</source>
-        <translation>GraniteCoin kliens</translation>
+        <source>CoconutCoin client</source>
+        <translation>CoconutCoin kliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to GraniteCoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a GraniteCoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a GraniteCoin-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to CoconutCoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a CoconutCoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a CoconutCoin-hálózattal</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,7 +655,7 @@ Cím: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid GraniteCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid CoconutCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -670,7 +670,7 @@ Cím: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. GraniteCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. CoconutCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -736,8 +736,8 @@ Cím: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GraniteCoin address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes GraniteCoin-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CoconutCoin address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes CoconutCoin-cím.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,7 +755,7 @@ Cím: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>GraniteCoin-Qt</source>
+        <source>CoconutCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -819,12 +819,12 @@ Cím: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GraniteCoin after logging in to the system.</source>
-        <translation>Induljon el a GraniteCoin a számítógép bekapcsolásakor</translation>
+        <source>Automatically start CoconutCoin after logging in to the system.</source>
+        <translation>Induljon el a CoconutCoin a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GraniteCoin on system login</source>
+        <source>&amp;Start CoconutCoin on system login</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
@@ -844,8 +844,8 @@ Cím: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GraniteCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A GraniteCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the CoconutCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A CoconutCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GraniteCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a GraniteCoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <source>Connect to the CoconutCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>SOCKS proxyn keresztüli csatlakozás a CoconutCoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,7 +929,7 @@ Cím: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GraniteCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CoconutCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -944,7 +944,7 @@ Cím: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GraniteCoin addresses in the transaction list or not.</source>
+        <source>Whether to show CoconutCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -996,8 +996,8 @@ Cím: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GraniteCoin.</source>
-        <translation>Ez a beállítás a GraniteCoin ujraindítása után lép érvénybe.</translation>
+        <source>This setting will take effect after restarting CoconutCoin.</source>
+        <translation>Ez a beállítás a CoconutCoin ujraindítása után lép érvénybe.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Cím: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GraniteCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a GraniteCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoconutCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a CoconutCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,7 +1069,7 @@ Cím: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start GraniteCoin: click-to-pay handler</source>
+        <source>Cannot start CoconutCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,7 +1219,7 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GraniteCoin-Qt help message to get a list with possible GraniteCoin command-line options.</source>
+        <source>Show the CoconutCoin-Qt help message to get a list with possible CoconutCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,12 +1239,12 @@ Cím: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>GraniteCoin - Debug window</source>
+        <source>CoconutCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>GraniteCoin Core</source>
+        <source>CoconutCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GraniteCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CoconutCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1264,7 +1264,7 @@ Cím: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the GraniteCoin RPC console.</source>
+        <source>Welcome to the CoconutCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1365,7 +1365,7 @@ Cím: %4
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi GraniteCoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi CoconutCoin az egyenlegeden.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1449,8 +1449,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Adj meg egy GraniteCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Adj meg egy CoconutCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
     </message>
 </context>
 <context>
@@ -1473,7 +1473,7 @@ Cím: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Adj meg egy GraniteCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
+        <translation>Adj meg egy CoconutCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1514,7 +1514,7 @@ Cím: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GraniteCoin address</source>
+        <source>Sign the message to prove you own this CoconutCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1546,11 +1546,11 @@ Cím: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Adj meg egy GraniteCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
+        <translation>Adj meg egy CoconutCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GraniteCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified CoconutCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1566,8 +1566,8 @@ Cím: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GraniteCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Adj meg egy GraniteCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
+        <source>Enter a CoconutCoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <translation>Adj meg egy CoconutCoin-címet (pl.: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp )</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Cím: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GraniteCoin signature</source>
-        <translation>Adja meg a GraniteCoin aláírást</translation>
+        <source>Enter CoconutCoin signature</source>
+        <translation>Adja meg a CoconutCoin aláírást</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Cím: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The GraniteCoin developers</source>
+        <source>The CoconutCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2188,8 +2188,8 @@ Cím: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>GraniteCoin version</source>
-        <translation>GraniteCoin verzió</translation>
+        <source>CoconutCoin version</source>
+        <translation>CoconutCoin verzió</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Cím: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or GraniteCoind</source>
-        <translation>Parancs küldése a -serverhez vagy a GraniteCoindhez
+        <source>Send command to -server or CoconutCoind</source>
+        <translation>Parancs küldése a -serverhez vagy a CoconutCoindhez
 </translation>
     </message>
     <message>
@@ -2222,14 +2222,14 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: GraniteCoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: GraniteCoin.conf)
+        <source>Specify configuration file (default: CoconutCoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: CoconutCoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: GraniteCoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: GraniteCoind.pid)
+        <source>Specify pid file (default: CoconutCoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: CoconutCoind.pid)
 </translation>
     </message>
     <message>
@@ -2311,13 +2311,13 @@ Cím: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=GraniteCoinrpc
+rpcuser=CoconutCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CoconutCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2333,7 +2333,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. GraniteCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CoconutCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2378,8 +2378,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GraniteCoin will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A GraniteCoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoconutCoin will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A CoconutCoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,8 +2628,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the GraniteCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opciók: (lásd a GraniteCoin Wiki SSL-beállítási instrukcióit)</translation>
+        <source>SSL options: (see the CoconutCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opciók: (lásd a CoconutCoin Wiki SSL-beállítási instrukcióit)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2829,13 +2829,13 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GraniteCoin</source>
-        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú GraniteCoin-kliens szükséges</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CoconutCoin</source>
+        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú CoconutCoin-kliens szükséges</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart GraniteCoin to complete</source>
-        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a GraniteCoin-t</translation>
+        <source>Wallet needed to be rewritten: restart CoconutCoin to complete</source>
+        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a CoconutCoin-t</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2880,7 +2880,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Nincs elég GraniteCoinod.</translation>
+        <translation>Nincs elég CoconutCoinod.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2894,8 +2894,8 @@ for example: alertnotify=echo %%s | mail -s &quot;GraniteCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. GraniteCoin is probably already running.</source>
-        <translation>A %s nem elérhető ezen a gépen. A GraniteCoin valószínűleg fut már.</translation>
+        <source>Unable to bind to %s on this computer. CoconutCoin is probably already running.</source>
+        <translation>A %s nem elérhető ezen a gépen. A CoconutCoin valószínűleg fut már.</translation>
     </message>
     <message>
         <location line="+64"/>
