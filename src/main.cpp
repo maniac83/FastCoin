@@ -79,7 +79,6 @@ int64 nMinimumInputValue = DUST_HARD_LIMIT;
 //1 : GetNextWorkRequired v1
 //2 : KGW
 //3 : Digishield
-int DiffMode = 2;
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1134,13 +1133,13 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 }
 
 // Initial starting specs before block 50
-static const int64 nTargetTimespan = 2 * 60 * 60; // 2hr target time
-static const int64 nTargetSpacing = 120; // seconds per block target
-static const int64 nInterval = nTargetTimespan / nTargetSpacing; //Aim to produce 60 blocks every 2 hours
+static const int64 nTargetTimespan = 2 * 60; // retarget every 2 minutes
+static const int64 nTargetSpacing = 60; // seconds per block target
+static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Specs after block 50
-static const int64 nTargetTimespanV2 = 120;
-static const int64 nTargetSpacingV2 = 120;
+static const int64 nTargetTimespanV2 = 60; // kgw, retarget every block
+static const int64 nTargetSpacingV2 = 60;
 static const int64 nIntervalV2 = nTargetTimespanV2 / nTargetSpacingV2;
 
 //
@@ -1178,7 +1177,7 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     bnResult.SetCompact(nBase);
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
     {
-        if(nBestHeight+1<NDIFF_START_DIGISHIELD){
+        if(nBestHeight+1<NDIFF_START_KGW){
             // Maximum 400% adjustment...
             bnResult *= 4;
             // ... in best-case exactly 4-times-normal target time
@@ -1265,6 +1264,82 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
     return bnNew.GetCompact();
 }
 
+unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64 TargetBlocksSpacingSeconds, uint64 PastBlocksMin, uint64 PastBlocksMax) {
+        /* current difficulty formula, cryptometh - kimoto gravity well */
+        const CBlockIndex *BlockLastSolved = pindexLast;
+        const CBlockIndex *BlockReading = pindexLast;
+        const CBlockHeader *BlockCreating = pblock;
+        BlockCreating = BlockCreating;
+        uint64 PastBlocksMass = 0;
+        int64 PastRateActualSeconds = 0;
+        int64 PastRateTargetSeconds = 0;
+        double PastRateAdjustmentRatio = double(1);
+        CBigNum PastDifficultyAverage;
+        CBigNum PastDifficultyAveragePrev;
+        double EventHorizonDeviation;
+        double EventHorizonDeviationFast;
+        double EventHorizonDeviationSlow;
+        
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64)BlockLastSolved->nHeight < PastBlocksMin) { return bnProofOfWorkLimit.GetCompact(); }
+        
+		int64 LatestBlockTime = BlockLastSolved->GetBlockTime();
+        for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
+                if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
+                PastBlocksMass++;
+                
+                if (i == 1) { PastDifficultyAverage.SetCompact(BlockReading->nBits); }
+                else { PastDifficultyAverage = ((CBigNum().SetCompact(BlockReading->nBits) - PastDifficultyAveragePrev) / i) + PastDifficultyAveragePrev; }
+                PastDifficultyAveragePrev = PastDifficultyAverage;
+                if (LatestBlockTime < BlockReading->GetBlockTime()) {
+					if (BlockReading->nHeight > 13000) 
+                        LatestBlockTime = BlockReading->GetBlockTime();
+				}
+			    PastRateActualSeconds = LatestBlockTime - BlockReading->GetBlockTime();
+                PastRateTargetSeconds = TargetBlocksSpacingSeconds * PastBlocksMass;
+                PastRateAdjustmentRatio = double(1);
+                if (BlockReading->nHeight > 13000) { 
+                    if (PastRateActualSeconds < 1) { PastRateActualSeconds = 1; }
+                } 
+				else {
+					if (PastRateActualSeconds < 0) { PastRateActualSeconds = 0; }
+				}
+                if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
+                PastRateAdjustmentRatio = double(PastRateTargetSeconds) / double(PastRateActualSeconds);
+                }
+                EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(28.2)), -1.228));
+                EventHorizonDeviationFast = EventHorizonDeviation;
+                EventHorizonDeviationSlow = 1 / EventHorizonDeviation;
+                
+                if (PastBlocksMass >= PastBlocksMin) {
+                        if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) { assert(BlockReading); break; }
+                }
+                if (BlockReading->pprev == NULL) { assert(BlockReading); break; }
+                BlockReading = BlockReading->pprev;
+        }
+        
+        CBigNum bnNew(PastDifficultyAverage);
+        if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
+                bnNew *= PastRateActualSeconds;
+                bnNew /= PastRateTargetSeconds;
+        }
+    if (bnNew > bnProofOfWorkLimit) { bnNew = bnProofOfWorkLimit; }
+        
+    return bnNew.GetCompact();
+}
+
+// KGW Retarging
+unsigned int static GetNextWorkRequired_V2(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+{
+		int nHeight = pindexLast->nHeight + 1;
+		static const int64 BlocksTargetSpacing =  60; // 1 minutes
+        static const unsigned int TimeDaySeconds = 60 * 60 * 24;
+        int64 PastSecondsMin = TimeDaySeconds * 0.01;
+        int64 PastSecondsMax = TimeDaySeconds * 0.14;
+
+        uint64 PastBlocksMin = PastSecondsMin / BlocksTargetSpacing;
+        uint64 PastBlocksMax = PastSecondsMax / BlocksTargetSpacing;
+        return KimotoGravityWell(pindexLast, pblock, BlocksTargetSpacing, PastBlocksMin, PastBlocksMax);
+}
 
 // Digishield Retargeting
 unsigned int GetNextWorkRequired_V3(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
@@ -1351,17 +1426,21 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     int DiffMode = 1;
 
     if (fTestNet) {
-        if (pindexLast->nHeight+1 >= NDIFF_START_DIGISHIELD_TESTNET) { DiffMode = 3; }
+        if (pindexLast->nHeight+1 >= NDIFF_START_KGW_TESTNET) { DiffMode = 2; }
         printf("Into testnet @ block # %d Diffmode: %d\n", pindexLast->nHeight+1, DiffMode );
     }
     else {
-        if (pindexLast->nHeight+1 >= NDIFF_START_DIGISHIELD) { DiffMode = 3; }
+        if (pindexLast->nHeight+1 >= NDIFF_START_KGW) { DiffMode = 2; }
     }
 
     if		(DiffMode == 1)
     {
         return GetNextWorkRequired_V1(pindexLast, pblock);
     }
+	else if (DiffMode == 2)
+	{
+		return GetNextWorkRequired_V2(pindexLast, pblock);
+	}
     else if	(DiffMode == 3)
     {
         return GetNextWorkRequired_V3(pindexLast, pblock);
