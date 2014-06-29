@@ -1218,6 +1218,7 @@ void ThreadDNSAddressSeed()
             vector<CAddress> vAdd;
             if (LookupHost(strDNSSeed[seed_idx][1], vaddr))
             {
+				printf("DNS Seeder has been found!\n");
                 BOOST_FOREACH(CNetAddr& ip, vaddr)
                 {
                     int nOneDay = 24*3600;
@@ -1227,6 +1228,10 @@ void ThreadDNSAddressSeed()
                     found++;
                 }
             }
+			else
+			{
+				printf("DNS Seeder has not been found!\n");
+			}
             addrman.Add(vAdd, CNetAddr(strDNSSeed[seed_idx][0], true));
         }
     }
