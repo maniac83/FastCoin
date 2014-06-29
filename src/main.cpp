@@ -1069,66 +1069,45 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 100 * COIN;
+    int64_t nSubsidy = 16;
 
-    if (nHeight == 1)
-    {
-       nSubsidy = 650000 * COIN;
-    }
-    else if (nHeight == 1500) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 5000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 10000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 20000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 40000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 60000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 80000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 100000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 150000) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-    else if (nHeight == 262799) //bonus block reward nHeight
-    {
-        int64 nSubsidy = 100000 * COIN;
-        return nSubsidy + nFees;
-    }
-
-    // Subsidy is cut in half every xxxx blocks
-    nSubsidy >>= (nHeight / 262800);
-
+	int bonusRewartPool = 100000;					// pool for occasional blocks
+	
+	if(nHeight == 0)
+	{
+		nSubsidy = 1 * COIN;
+	}
+	if(nHeight == 1)
+	{
+		nSubsidy = 100000 * COIN; 	                 // premine and no more!.
+	}
+	else if(nHeight <= 61) 		
+	{ 
+	   nSubsidy = 1 * COIN;			                 // first 60 block with low reward
+	}
+	else if (nHeight <= (8 * 24 * 60))
+	{
+		nSubsidy *= (2 * COIN);                      // for first two days, double reward
+	}
+	else if (nHeight == (1 * 7 * 24 * 60))			 // we have first week!!! occasional reward 30%! .. coco jambo!
+	{
+		nSubsidy = ((bonusRewartPool * 0.3) * COIN);
+	}
+	else if (nHeight == (2 * 7 * 24 * 60))			 // we have second week !!! occasional reward 30%! .. coco jambo!
+	{
+		nSubsidy = ((bonusRewartPool * 0.3) * COIN);
+	}
+	else if (nHeight == (5 * 7 * 24 * 60))			 // fifth week!!! wow.. this is the last occasional reward - 40%.. hopefully miners won't run :-)
+	{
+		nSubsidy = ((bonusRewartPool * 0.4) * COIN);
+	}
+	else
+	{
+		nSubsidy >>= (nHeight / (6 * 30 * 24 * 60)); // every 6 months, reward is halved
+	}
+	/* total_coins = premine  low reward coins       double reward coins               normal reward coins                     after first halving          after second halving        after third halving          after fourth halving		occasional rewards
+	/* 8557804     = 100000 +       60 * 1     +  (8 * 24 * 60) * 2 * 16   + ((6 * 30 * 24 * 60) - (2 * 24 * 60) - 1) * 16   +   (6 * 30 * 24 * 60) * 8   +   (6 * 30 * 24 * 60) * 4   +   (6 * 30 * 24 * 60) * 2   +   (6 * 30 * 24 * 60) * 1  + 100000*/
+	
     return nSubsidy + nFees;
 }
 
@@ -3044,7 +3023,7 @@ bool InitBlockIndex() {
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 100 * COIN;
+        txNew.vout[0].nValue = 1 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);

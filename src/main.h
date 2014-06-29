@@ -59,7 +59,7 @@ static const int64 DUST_SOFT_LIMIT = 100000; // 0.001 CCNUT
 /** Dust Hard Limit, ignored as wallet inputs (mininput default) */
 static const int64 DUST_HARD_LIMIT = 1000;   // 0.00001 CCNUT mininput
 /** No amount larger than this (in satoshi) is valid */
-static const int64 MAX_MONEY = 65000000 * COIN;
+static const int64 MAX_MONEY = 8557804 * COIN;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
  static const int COINBASE_MATURITY = 100;
@@ -67,8 +67,6 @@ inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONE
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Maximum number of script-checking threads allowed */
 static const int MAX_SCRIPTCHECK_THREADS = 16;
-/** Switch to using Digishield after this block*/
-static const int DIFF_SWITCH_BLOCK = 42000;
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
 #else
