@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x00000054c1c6d6971b9c9120a5e639ec7f008fb1fdbad2504c52e865140b45b9");
+uint256 hashGenesisBlock("0x0000045829c0ff63f18b3891b721a3550195bf9444e68be615375e069eb5ce75");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // CoconutCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2986,7 +2986,7 @@ bool LoadBlockIndex()
         // CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104474a6170616e546f6461792031332f4d61722f323031342057617973206579656420746f206d616b6520706c616e65732065617369657220746f2066696e6420696e206f6365616e)
         // CTxOut(nValue=400.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
         // vMerkleTree: b0019d92bc054f7418960c91e252e7d24c77719c7a30128c5f6a827c73095d2a 
-        hashGenesisBlock = uint256("0x00000c390b6851ecd207bb1b9fbcd7532ed2ca26e325451c35dfc52e8c1ecd80");
+        hashGenesisBlock = uint256("0x000001bfea18deacc77f45dc526cb587dfb7b1c47b8540352fc7856b30a748f4");
     }
 
     //
@@ -3018,7 +3018,7 @@ bool InitBlockIndex() {
     // CTxOut(nValue=400.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
     // vMerkleTree: b0019d92bc054f7418960c91e252e7d24c77719c7a30128c5f6a827c73095d2a 
 	
-		const char* pszTimestamp = "22/06/2014";
+		const char* pszTimestamp = "01-07-2014";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -3030,17 +3030,17 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1403552218;
+        block.nTime    = 1404231988;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 657514;
+        block.nNonce   = 1210138;
 
         if (fTestNet)
         {
-            block.nTime    = 1403554325;
-            block.nNonce   = 578200;
+            block.nTime    = 1404232589;
+            block.nNonce   = 976243;
         }
 
-	/*if (false && block.GetHash() != hashGenesisBlock)
+	/*if (true && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
@@ -3075,7 +3075,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x819b7514b73a07abc49fec4fc619d97664beeb4cb136eaa92c6d112e75ed997e"));
+        assert(block.hashMerkleRoot == uint256("0xa6fb39d324683f1a3c86d47f62d9d6f2a5ec97b5c88b154714750e9acf63d257"));
 
 
         block.print();
