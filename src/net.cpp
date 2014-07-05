@@ -1212,6 +1212,7 @@ void ThreadDNSAddressSeed()
 
     for (unsigned int seed_idx = 0; strDNSSeed[seed_idx][0] != NULL; seed_idx++) {
         if (HaveNameProxy()) {
+			printf("DNS Seeder AddOneShot\n");
             AddOneShot(strDNSSeed[seed_idx][1]);
         } else {
             vector<CNetAddr> vaddr;
