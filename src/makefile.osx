@@ -110,9 +110,8 @@ OBJS= \
     obj/groestl.o\
     obj/jh.o\
     obj/keccak.o\
-    obj/skein.o \
-	obj/checkpointsync.o
-
+    obj/skein.o
+	
 ifndef USE_UPNP
 	override USE_UPNP = -
 endif
